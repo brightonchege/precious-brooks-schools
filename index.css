@@ -18,6 +18,7 @@ h1 {
   gap: 20%;
   padding-right: 20px;
   padding-left: 20px;
+  position:fixed;
 }
 .nameholder {
   display: grid;
