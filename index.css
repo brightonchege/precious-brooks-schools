@@ -1,0 +1,514 @@
+body {
+  background-color: #232122;
+}
+.maincontainer {
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #333;
+  display: grid;
+  height: 70px;
+  grid-template-columns: 35% 45%;
+  gap: 20%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nameholder {
+  display: grid;
+  align-content: center;
+  padding-left: 10px;
+}
+.nameholder:hover :nth-child(1) {
+  color: #c91c55;
+}
+.contents {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.title {
+  margin: 0;
+  padding: 0px;
+  font-size: 30;
+  color: white;
+}
+.item {
+  font-size: 22;
+  font-weight: 500;
+  color: #f5eaea;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.item:hover {
+  background-color: #c91c55;
+  box-shadow: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: -5px 0px 5px 2px #d1d8d6;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 60px;
+    grid-template-rows: 45% 55%;
+    gap: 0%;
+    grid-template-columns: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .nameholder {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {
+    height: 80px;
+    grid-template-rows: 45% 55%;
+    gap: 0%;
+    grid-template-columns: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .nameholder {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    display: grid;
+    height: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .title {
+    font-size: 25;
+  }
+  .item {
+    font-size: 18;
+  }
+  .contents {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 0%;
+  }
+  .item:hover {
+    box-shadow: none;
+    box-shadow: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+  }
+}
+
+/*sshkdfgaeyirfg;
+dsjkr;gheuog                            second part
+*/
+/*sshkdfgaeyirfg;
+dsjkr;gheuog                            second part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            second part
+*/
+
+@keyframes images {
+  0% {
+    content: url(https://media.istockphoto.com/id/1323715308/photo/african-american-girl-raising-her-hands-while-sitting-on-her-desk-in-the-class-at-school.jpg?b=1&s=170667a&w=0&k=20&c=X-vU_rdgsYbAXYHBWxe9QNHwGxamK2_ctuqw_EEiVKQ=);
+  }
+  10% {
+    content: url(https://media.istockphoto.com/id/1338344319/photo/happy-diverse-junior-school-students-children-looking-at-camera-in-classroom.jpg?s=612x612&w=0&k=20&c=rTFnd9t0Zi58eAa_uzHhORC-sMhpGtAISuY48TJVXQ8=);
+  }
+  20% {
+    content: url(https://media.istockphoto.com/id/1202500051/photo/cheerful-young-african-girl-kid-in-eyeglasses-holding-notebook-and-books-for-study-isolated.jpg?s=612x612&w=0&k=20&c=3e2bY3qnxPcgELGASKjGPMhNkc7JqjTcDnc0fwIw3VE=);
+  }
+  30% {
+    content: url(https://www.todaysparent.com/wp-content/uploads/2022/03/black-youth-yearn-for-black-teachers-to-disrupt-the-daily-silencing-of-their-experiences-1280x720-766x431.jpg);
+  }
+  40% {
+    content: url(https://thumbs.dreamstime.com/b/happy-children-girls-girlfriend-schoolgirl-student-elementary-school-happy-children-girlfriend-schoolgirl-student-elementary-121447690.jpg);
+  }
+  50% {
+    content: url(https://daily.jstor.org/wp-content/uploads/2015/07/school_1050x700.jpg);
+  }
+  60% {
+    content: url(https://media.istockphoto.com/id/1323715308/photo/african-american-girl-raising-her-hands-while-sitting-on-her-desk-in-the-class-at-school.jpg?b=1&s=170667a&w=0&k=20&c=X-vU_rdgsYbAXYHBWxe9QNHwGxamK2_ctuqw_EEiVKQ=);
+  }
+  70% {
+    content: url(https://www.paterson.k12.nj.us/cms/lib/NJ50010863/Centricity//Domain/4/Images/Classroom_Elementary_01.jpg);
+  }
+  80% {
+    content: url(https://media.istockphoto.com/id/803141126/photo/kids-showing-hands-during-a-lesson-at-an-elementary-school.jpg?s=612x612&w=0&k=20&c=3zQbkU2Ha9JZ6FFYxz6k5PNcSxqIflmGorR8yOcDsRY=);
+  }
+  90% {
+    content: url(https://thumbs.dreamstime.com/b/happy-children-school-uniform-backpacks-indoors-happy-children-school-uniform-backpacks-161048533.jpg);
+  }
+  100% {
+    content: url(https://psmag.com/.image/t_share/MTI4NTEwMTQ0MzQ5Nzk0Mjc0/shutterstock_211281496jpg.jpg);
+  }
+}
+.secondpart {
+}
+.lefttwo {
+}
+.itemm {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.join {
+  width: 150px;
+  font-size: 40;
+  color: #d1d8d6;
+  height: 60px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px #d1d8d6;
+  border-left: #d1d8d6 1px solid;
+  border-top: #d1d8d6 1px solid;
+  font-style: oblique;
+}
+.join:hover {
+  box-shadow: 10px 10px 10px #c91c55;
+  background-color: #d1d8d6;
+  color: #232122;
+}
+.rightwo {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  -webkit-clip-path: polygon(
+    20% 0%,
+    0% 20%,
+    7% 52%,
+    0% 80%,
+    20% 100%,
+    51% 95%,
+    80% 100%,
+    100% 80%,
+    92% 48%,
+    100% 20%,
+    80% 0%,
+    50% 5%
+  );
+  clip-path: polygon(
+    20% 0%,
+    0% 20%,
+    7% 52%,
+    0% 80%,
+    20% 100%,
+    51% 95%,
+    80% 100%,
+    100% 80%,
+    92% 48%,
+    100% 20%,
+    80% 0%,
+    50% 5%
+  );
+}
+@media screen and (max-width: 450px) {
+  .secondpart {
+    display: grid;
+    height: 85vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 55%45%;
+  }
+  img {
+    width: 280px;
+    height: 200px;
+    animation: images 30s infinite;
+  }
+  .lefttwo {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 5px;
+  }
+  .embark {
+    font-size: 30;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+  .embarkabout {
+    font-size: 20;
+    font-style: oblique;
+    line-height: 1.5;
+    height: 120px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .join {
+    width: 100px;
+    font-size: 30;
+    color: #d1d8d6;
+    height: 40px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px #d1d8d6;
+    border-left: #d1d8d6 1px solid;
+    border-top: #d1d8d6 1px solid;
+    font-style: oblique;
+  }
+  .join:hover {
+    box-shadow: 10px 10px 10px #c91c55;
+    background-color: #d1d8d6;
+    color: #232122;
+  }
+}
+@media screen and (min-width: 450px) {
+  .secondpart {
+    display: grid;
+    height: 105vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 45%55%;
+  }
+  .lefttwo {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .embark {
+    font-size: 25;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+  .embarkabout {
+    font-size: 20;
+    font-style: oblique;
+    line-height: 1.5;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+  .join {
+    width: 100px;
+    margin-top: 20px;
+    font-size: 30;
+    color: #d1d8d6;
+    height: 40px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #d1d8d6;
+    border-left: #d1d8d6 1px solid;
+    border-top: #d1d8d6 1px solid;
+    font-style: oblique;
+  }
+  img {
+    width: 400px;
+    height: 350px;
+    animation: images 30s infinite;
+  }
+}
+@media screen and (min-width: 635px) {
+  .secondpart {
+    display: grid;
+    height: 95vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 40%60%;
+  }
+  .lefttwo {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  .embark {
+    font-size: 35;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+  .embarkabout {
+    font-size: 25;
+    font-style: oblique;
+    line-height: 1.5;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .secondpart {
+    display: grid;
+    height: 95vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 40%60%;
+  }
+  .lefttwo {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  .embark {
+    font-size: 35;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+  .embarkabout {
+    font-size: 25;
+    font-style: oblique;
+    line-height: 1.5;
+    height: 80px;
+  }
+  img {
+    width: 500px;
+    height: 350px;
+    animation: images 30s infinite;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .secondpart {
+    display: grid;
+    height: 105vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%50%;
+  }
+  .lefttwo {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-right: 40px;
+  }
+  .embark {
+    font-size: 55;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+  .join {
+    width: 150px;
+    margin-top: 0;
+    font-size: 40;
+    color: #d1d8d6;
+    height: 60px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px #d1d8d6;
+    border-left: #d1d8d6 1px solid;
+    border-top: #d1d8d6 1px solid;
+    font-style: oblique;
+  }
+  img {
+    width: 600px;
+    height: 330px;
+    animation: images 30s infinite;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .secondpart {
+    display: grid;
+    height: 85vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+  .lefttwo {
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  .embark {
+    font-size: 70;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+  .embarkabout {
+    font-size: 25;
+    font-style: oblique;
+    line-height: 1.5;
+  }
+  .join {
+    width: 150px;
+    margin-top: 50px;
+    font-size: 40;
+    color: #d1d8d6;
+    height: 60px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px #d1d8d6;
+    border-left: #d1d8d6 1px solid;
+    border-top: #d1d8d6 1px solid;
+    font-style: oblique;
+  }
+  img {
+    width: 600px;
+    height: 410px;
+    animation: images 100s infinite;
+  }
+}
+/*sshkdfgaeyirfg;
+dsjkr;gheuog                            third part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            third part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            thrid part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            thrid part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            third part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            third part
+*/
+
+.thirdpart {
+  border-color: #c91c55;
+}
+
+.headactivities {
+  display: flex;
+  padding: 2rem;
+  overflow-x: scroll;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.thirdabout {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.activities {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  padding: 30px;
+  min-width: 300px;
+  border-radius: 16px;
+  background-color: #17141d;
+  box-shadow: -1rem 0 1rem #d1d8d6;
+  transition: 0.2s;
+  transform-style: preserve-3d;
+ transform: rotateY(40deg);;
+}
+
+.ativityhead {
+}
+
+p,
+h2 {
+  color: white;
+}
+.activities:hover {
+  transform: rotate(3deg);
+}
+.activities:hover ~ .activities {
+  transform: translateX(150px);
+}
+.activities:not(:first-child) {
+  margin-left: -130px;
+}
