@@ -18,7 +18,10 @@ h1 {
   gap: 20%;
   padding-right: 20px;
   padding-left: 20px;
-  position: sticky; top: 0; overflow: hidden;
+  /*
+  position: sticky; top: 0; 
+  */
+
 }
 .nameholder {
   display: grid;
@@ -218,10 +221,10 @@ img {
     80% 0%,
     50% 5%
   );
-
+/*
 top:0;
 left:0;
-z-index:-10;
+z-index:-10;*/
 }
 @media screen and (max-width: 450px) {
   .secondpart {
@@ -484,7 +487,7 @@ dsjkr;gheuog                            third part
 .headactivities {
   display: flex;
   padding: 2rem;
-  overflow-x: scroll;
+overflow-x: scroll;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -508,6 +511,18 @@ dsjkr;gheuog                            third part
   transition: 0.2s;
   transform-style: preserve-3d;
  transform: rotateY(60deg);;
+}
+.headactivities::-webkit-scrollbar {
+  width: 12px;
+}
+ 
+.headactivities::-webkit-scrollbar-track {
+  background: orange; 
+}
+.headactivities::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
 }
 
 .ativityhead {
@@ -537,6 +552,7 @@ h2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+
 .activities {
   height: 300px;
   width: 250px;
@@ -573,13 +589,76 @@ h2 {
    transform:none;
   }
   .activities:hover {
-    transform: rotate(3deg);
+    transform:none;
   }
   .activities:hover ~ .activities {
-    transform:  translateX(150px);
+    transform:none;
   }
   .activities:not(:first-child) {
-    margin-left: -130px;
+    margin-left: 0;
   }
   }
-  
+  /*sshkdfgaeyirfg;
+dsjkr;gheuog                            four part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            four part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            four part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            four part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            four part
+*/ /*sshkdfgaeyirfg;
+dsjkr;gheuog                            four part
+*/
+.fourthpart{
+background-color: #c91c55;
+height: 500px;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.fourheading{
+  margin: 0;padding: 0;
+  color: #f5eaea;
+  font-size: 80;
+}
+.fourpartleft{
+padding-top: 30px;
+padding-left: 100px;
+display: grid;align-content: center;
+justify-content: center;
+}
+
+.fourpartright{
+  padding-top: 30px;
+  display: grid;align-content: center;
+  justify-content: center;
+}
+.names{
+  font-size: 25;margin: 0;padding: 0;
+margin-bottom: 5px;padding-bottom: 5px;
+}
+
+
+
+@media screen and (max-width:400px) {
+  .fourthpart{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    }
+    .fourpartleft{
+      padding-top: 30px;
+      padding-left: 10px;
+      }
+      .fourheading{
+        font-size: 30;
+      }
+      .fourpartright{
+        padding-top: 10px;
+        padding-left: 10px;
+        display: grid;align-content: center;
+        justify-content: center;
+      }
+}
