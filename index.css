@@ -480,6 +480,7 @@ dsjkr;gheuog                            third part
   background-color: #c91c55;margin-top: 10px;
 }
 
+
 .headactivities {
   display: flex;
   padding: 2rem;
@@ -525,7 +526,7 @@ h2 {
 .activities:not(:first-child) {
   margin-left: -130px;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
 .thirdabout{
   font-size: 13;
 }
@@ -537,27 +538,11 @@ h2 {
   padding-right: 0.5rem;
 }
 .activities {
-  display: flex;
-  position: relative;
-  flex-direction: column;
   height: 300px;
   width: 250px;
   padding: 10px;
-  min-width: 300px;
-  border-radius: 16px;
-  background-color: #17141d;
-  box-shadow: -1rem 0 1rem #d1d8d6;
-  transition: 0.2s;
-  transform-style: preserve-3d;
+  min-width: 250px;
  transform:none;
-}
-
-.ativityhead {
-}
-
-p,
-h2 {
-  color: white;
 }
 .activities:hover {
   transform: none;
@@ -569,3 +554,32 @@ h2 {
   margin-left: 0;
 }
 }
+@media screen and (max-width: 500px) {
+  .thirdabout{
+    font-size: 13;
+  }
+  .headactivities {
+    display: flex;
+    padding: 2rem;
+    overflow-x: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .activities {
+    height: 300px;
+    width: 250px;
+    padding: 0px;
+    min-width: 250px;
+   transform:none;
+  }
+  .activities:hover {
+    transform: rotate(3deg);
+  }
+  .activities:hover ~ .activities {
+    transform:  translateX(150px);
+  }
+  .activities:not(:first-child) {
+    margin-left: -130px;
+  }
+  }
+  
