@@ -613,7 +613,6 @@ dsjkr;gheuog                            four part
 dsjkr;gheuog                            four part
 */
 .fourthpart{
-background-color: #c91c55;
 height: 500px;
 display: grid;
 grid-template-columns: 50% 50%;
@@ -636,7 +635,7 @@ justify-content: center;
   justify-content: center;
 }
 .names{
-  font-size: 25;margin: 0;padding: 0;
+  font-size: 25;margin: 0;padding: 0;color:white;
 margin-bottom: 5px;padding-bottom: 5px;
 }
 
