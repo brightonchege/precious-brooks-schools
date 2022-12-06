@@ -18,7 +18,7 @@ h1 {
   gap: 20%;
   padding-right: 20px;
   padding-left: 20px;
-  position:fixed;
+  position: sticky; top: 0; overflow: hidden;
 }
 .nameholder {
   display: grid;
@@ -218,11 +218,15 @@ img {
     80% 0%,
     50% 5%
   );
+
+top:0;
+left:0;
+z-index:-10;
 }
 @media screen and (max-width: 450px) {
   .secondpart {
     display: grid;
-    height: 85vh;
+    height: 550px;
     grid-template-columns: 100%;
     grid-template-rows: 55%45%;
   }
@@ -272,7 +276,7 @@ img {
 @media screen and (min-width: 450px) {
   .secondpart {
     display: grid;
-    height: 105vh;
+    height: 650px;
     grid-template-columns: 100%;
     grid-template-rows: 45%55%;
   }
@@ -297,17 +301,21 @@ img {
   }
   .join {
     width: 100px;
-    margin-top: 20px;
     font-size: 30;
     color: #d1d8d6;
     height: 40px;
     display: grid;
     align-content: center;
     justify-content: center;
-    box-shadow: 2px 2px 2px #d1d8d6;
+    box-shadow: 5px 5px 5px #d1d8d6;
     border-left: #d1d8d6 1px solid;
     border-top: #d1d8d6 1px solid;
     font-style: oblique;
+  }
+  .join:hover {
+    box-shadow: 10px 10px 10px #c91c55;
+    background-color: #d1d8d6;
+    color: #232122;
   }
   img {
     width: 400px;
@@ -318,7 +326,7 @@ img {
 @media screen and (min-width: 635px) {
   .secondpart {
     display: grid;
-    height: 95vh;
+    height: 700px;
     grid-template-columns: 100%;
     grid-template-rows: 40%60%;
   }
@@ -343,7 +351,7 @@ img {
 @media screen and (min-width: 700px) {
   .secondpart {
     display: grid;
-    height: 95vh;
+    height: 700px;
     grid-template-columns: 100%;
     grid-template-rows: 40%60%;
   }
@@ -374,7 +382,7 @@ img {
 @media screen and (min-width: 800px) {
   .secondpart {
     display: grid;
-    height: 105vh;
+    height: 650px;
     grid-template-columns: 100%;
     grid-template-rows: 50%50%;
   }
@@ -390,18 +398,22 @@ img {
     margin-top: 5px;
   }
   .join {
-    width: 150px;
-    margin-top: 0;
-    font-size: 40;
+    width: 100px;
+    font-size: 30;
     color: #d1d8d6;
-    height: 60px;
+    height: 40px;
     display: grid;
     align-content: center;
     justify-content: center;
-    box-shadow: 10px 10px 10px #d1d8d6;
+    box-shadow: 5px 5px 5px #d1d8d6;
     border-left: #d1d8d6 1px solid;
     border-top: #d1d8d6 1px solid;
     font-style: oblique;
+  }
+  .join:hover {
+    box-shadow: 10px 10px 10px #c91c55;
+    background-color: #d1d8d6;
+    color: #232122;
   }
   img {
     width: 600px;
@@ -412,7 +424,7 @@ img {
 @media screen and (min-width: 1000px) {
   .secondpart {
     display: grid;
-    height: 85vh;
+    height: 600px;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
   }
@@ -445,7 +457,7 @@ img {
     font-style: oblique;
   }
   img {
-    width: 600px;
+    width: 600px;min-height: 400px;
     height: 410px;
     animation: images 100s infinite;
   }
@@ -465,7 +477,7 @@ dsjkr;gheuog                            third part
 */
 
 .thirdpart {
-  border-color: #c91c55;
+  background-color: #c91c55;margin-top: 10px;
 }
 
 .headactivities {
@@ -485,16 +497,16 @@ dsjkr;gheuog                            third part
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 250px;
   padding: 30px;
-  min-width: 300px;
+  min-width: 200px;
   border-radius: 16px;
   background-color: #17141d;
   box-shadow: -1rem 0 1rem #d1d8d6;
   transition: 0.2s;
   transform-style: preserve-3d;
- transform: rotateY(40deg);;
+ transform: rotateY(60deg);;
 }
 
 .ativityhead {
@@ -512,4 +524,48 @@ h2 {
 }
 .activities:not(:first-child) {
   margin-left: -130px;
+}
+@media screen and (max-width: 360px) {
+.thirdabout{
+  font-size: 13;
+}
+.headactivities {
+  display: flex;
+  padding: 2rem;
+  overflow-x: scroll;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.activities {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 300px;
+  width: 250px;
+  padding: 10px;
+  min-width: 300px;
+  border-radius: 16px;
+  background-color: #17141d;
+  box-shadow: -1rem 0 1rem #d1d8d6;
+  transition: 0.2s;
+  transform-style: preserve-3d;
+ transform:none;
+}
+
+.ativityhead {
+}
+
+p,
+h2 {
+  color: white;
+}
+.activities:hover {
+  transform: none;
+}
+.activities:hover ~ .activities {
+  transform: none;
+}
+.activities:not(:first-child) {
+  margin-left: 0;
+}
 }
